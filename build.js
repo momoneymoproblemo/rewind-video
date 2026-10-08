@@ -96,7 +96,20 @@ function write(rel, data) {
   fs.writeFileSync(file, JSON.stringify(data));
 }
 
+// The page files can live in the repo's main folder or in docs/ — copy any from the main folder into docs/
+// so the website always has them (GitHub's uploader tends to drop files at the top level).
+const PAGE_FILES = ['index.html', 'logo.png', 'store.jpg', 'background.jpg', 'carpet.svg'];
+function syncPageFiles() {
+  fs.mkdirSync(OUT, { recursive: true });
+  for (const f of PAGE_FILES) {
+    const from = path.join(__dirname, f);
+    if (fs.existsSync(from)) { fs.copyFileSync(from, path.join(OUT, f)); console.log(`  copied ${f} into docs/`); }
+    else if (!fs.existsSync(path.join(OUT, f))) console.warn(`  missing page file: ${f}`);
+  }
+}
+
 async function main() {
+  syncPageFiles();
   const week = thisWeek();
   const year = process.env.YEAR ? +process.env.YEAR : week.year;
   if (!(year >= FIRST_YEAR && year <= LAST_YEAR)) throw new Error(`Year ${year} is outside ${FIRST_YEAR}–${LAST_YEAR}`);
