@@ -9,7 +9,7 @@ const readline = require('readline');
 
 // ---- Tuning ---------------------------------------------------------------------------------------
 const FIRST_YEAR = 1985, LAST_YEAR = 2004;   // the store's range: 20 years, one full cycle before any repeat
-const PER_ROW = 50;                          // up to 50 films per shelf
+const PER_ROW = 25;                          // up to 25 films per shelf
 const MIN_RUNTIME = 60;                      // minutes; drops shorts and featurettes
 const SHELF_MIN_VOTES = 3000;                // genre shelves: films people actually rented
 const BEST_MIN_VOTES = 5000, BEST_MIN_RATING = 6.5; // "Best of the Year"
@@ -187,6 +187,7 @@ async function main() {
       type: 'movie',
       name: f.name,
       poster: `https://images.metahub.space/poster/medium/${f.id}/img`,
+      posterShape: 'poster',
       background: `https://images.metahub.space/background/medium/${f.id}/img`,
       releaseInfo: String(year),
       imdbRating: f.rating.toFixed(1),
@@ -211,7 +212,7 @@ async function main() {
 
   write('manifest.json', {
     id: 'community.rewindvideo',
-    version: '1.2.0',
+    version: '1.3.1',
     name: 'Blockbuster Video',
     description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
     logo: `${BASE}/logo.png`,

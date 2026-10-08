@@ -1,1 +1,420 @@
-{"metas":[{"id":"tt0105236","type":"movie","name":"Reservoir Dogs","poster":"https://images.metahub.space/poster/medium/tt0105236/img","background":"https://images.metahub.space/background/medium/tt0105236/img","releaseInfo":"1992","imdbRating":"8.2","genres":["Crime","Thriller"],"runtime":"1h 39m","description":"Blockbuster '92 · #1 Biggest Hits · IMDb 8.2 from 1.2M votes."},{"id":"tt0103639","type":"movie","name":"Aladdin","poster":"https://images.metahub.space/poster/medium/tt0103639/img","background":"https://images.metahub.space/background/medium/tt0103639/img","releaseInfo":"1992","imdbRating":"8.0","genres":["Adventure","Animation","Comedy"],"runtime":"1h 30m","description":"Blockbuster '92 · #2 Biggest Hits · IMDb 8.0 from 506K votes."},{"id":"tt0105695","type":"movie","name":"Unforgiven","poster":"https://images.metahub.space/poster/medium/tt0105695/img","background":"https://images.metahub.space/background/medium/tt0105695/img","releaseInfo":"1992","imdbRating":"8.2","genres":["Drama","Western"],"runtime":"2h 10m","description":"Blockbuster '92 · #3 Biggest Hits · IMDb 8.2 from 474K votes."},{"id":"tt0104431","type":"movie","name":"Home Alone 2: Lost in New York","poster":"https://images.metahub.space/poster/medium/tt0104431/img","background":"https://images.metahub.space/background/medium/tt0104431/img","releaseInfo":"1992","imdbRating":"6.9","genres":["Adventure","Comedy","Crime"],"runtime":"2h 00m","description":"Blockbuster '92 · #4 Biggest Hits · IMDb 6.9 from 463K votes."},{"id":"tt0105323","type":"movie","name":"Scent of a Woman","poster":"https://images.metahub.space/poster/medium/tt0105323/img","background":"https://images.metahub.space/background/medium/tt0105323/img","releaseInfo":"1992","imdbRating":"8.0","genres":["Drama"],"runtime":"2h 36m","description":"Blockbuster '92 · #5 Biggest Hits · IMDb 8.0 from 377K votes."},{"id":"tt0103644","type":"movie","name":"Alien³","poster":"https://images.metahub.space/poster/medium/tt0103644/img","background":"https://images.metahub.space/background/medium/tt0103644/img","releaseInfo":"1992","imdbRating":"6.4","genres":["Action","Horror","Sci-Fi"],"runtime":"1h 54m","description":"Blockbuster '92 · #6 Biggest Hits · IMDb 6.4 from 356K votes."},{"id":"tt0103776","type":"movie","name":"Batman Returns","poster":"https://images.metahub.space/poster/medium/tt0103776/img","background":"https://images.metahub.space/background/medium/tt0103776/img","releaseInfo":"1992","imdbRating":"7.1","genres":["Action","Crime","Fantasy"],"runtime":"2h 06m","description":"Blockbuster '92 · #7 Biggest Hits · IMDb 7.1 from 354K votes."},{"id":"tt0104257","type":"movie","name":"A Few Good Men","poster":"https://images.metahub.space/poster/medium/tt0104257/img","background":"https://images.metahub.space/background/medium/tt0104257/img","releaseInfo":"1992","imdbRating":"7.8","genres":["Drama","Thriller"],"runtime":"2h 18m","description":"Blockbuster '92 · #8 Biggest Hits · IMDb 7.8 from 323K votes."},{"id":"tt0103874","type":"movie","name":"Dracula","poster":"https://images.metahub.space/poster/medium/tt0103874/img","background":"https://images.metahub.space/background/medium/tt0103874/img","releaseInfo":"1992","imdbRating":"7.4","genres":["Fantasy","Horror","Romance"],"runtime":"2h 08m","description":"Blockbuster '92 · #9 Biggest Hits · IMDb 7.4 from 272K votes."},{"id":"tt0103772","type":"movie","name":"Basic Instinct","poster":"https://images.metahub.space/poster/medium/tt0103772/img","background":"https://images.metahub.space/background/medium/tt0103772/img","releaseInfo":"1992","imdbRating":"7.1","genres":["Drama","Mystery","Romance"],"runtime":"2h 07m","description":"Blockbuster '92 · #10 Biggest Hits · IMDb 7.1 from 248K votes."},{"id":"tt0106308","type":"movie","name":"Army of Darkness","poster":"https://images.metahub.space/poster/medium/tt0106308/img","background":"https://images.metahub.space/background/medium/tt0106308/img","releaseInfo":"1992","imdbRating":"7.4","genres":["Comedy","Horror"],"runtime":"1h 21m","description":"Blockbuster '92 · #11 Biggest Hits · IMDb 7.4 from 213K votes."},{"id":"tt0104691","type":"movie","name":"The Last of the Mohicans","poster":"https://images.metahub.space/poster/medium/tt0104691/img","background":"https://images.metahub.space/background/medium/tt0104691/img","releaseInfo":"1992","imdbRating":"7.6","genres":["Action","Adventure","Drama"],"runtime":"1h 52m","description":"Blockbuster '92 · #12 Biggest Hits · IMDb 7.6 from 210K votes."},{"id":"tt0104714","type":"movie","name":"Lethal Weapon 3","poster":"https://images.metahub.space/poster/medium/tt0104714/img","background":"https://images.metahub.space/background/medium/tt0104714/img","releaseInfo":"1992","imdbRating":"6.7","genres":["Action","Crime","Thriller"],"runtime":"1h 58m","description":"Blockbuster '92 · #13 Biggest Hits · IMDb 6.7 from 190K votes."},{"id":"tt0105793","type":"movie","name":"Wayne's World","poster":"https://images.metahub.space/poster/medium/tt0105793/img","background":"https://images.metahub.space/background/medium/tt0105793/img","releaseInfo":"1992","imdbRating":"7.0","genres":["Comedy","Music"],"runtime":"1h 34m","description":"Blockbuster '92 · #14 Biggest Hits · IMDb 7.0 from 184K votes."},{"id":"tt0104952","type":"movie","name":"My Cousin Vinny","poster":"https://images.metahub.space/poster/medium/tt0104952/img","background":"https://images.metahub.space/background/medium/tt0104952/img","releaseInfo":"1992","imdbRating":"7.6","genres":["Comedy","Crime"],"runtime":"1h 59m","description":"Blockbuster '92 · #15 Biggest Hits · IMDb 7.6 from 162K votes."},{"id":"tt0103855","type":"movie","name":"The Bodyguard","poster":"https://images.metahub.space/poster/medium/tt0103855/img","background":"https://images.metahub.space/background/medium/tt0103855/img","releaseInfo":"1992","imdbRating":"6.4","genres":["Drama","Music","Romance"],"runtime":"2h 09m","description":"Blockbuster '92 · #16 Biggest Hits · IMDb 6.4 from 161K votes."},{"id":"tt0104070","type":"movie","name":"Death Becomes Her","poster":"https://images.metahub.space/poster/medium/tt0104070/img","background":"https://images.metahub.space/background/medium/tt0104070/img","releaseInfo":"1992","imdbRating":"6.7","genres":["Comedy","Fantasy","Horror"],"runtime":"1h 44m","description":"Blockbuster '92 · #17 Biggest Hits · IMDb 6.7 from 152K votes."},{"id":"tt0104694","type":"movie","name":"A League of Their Own","poster":"https://images.metahub.space/poster/medium/tt0104694/img","background":"https://images.metahub.space/background/medium/tt0104694/img","releaseInfo":"1992","imdbRating":"7.4","genres":["Comedy","Drama","Sport"],"runtime":"2h 08m","description":"Blockbuster '92 · #18 Biggest Hits · IMDb 7.4 from 133K votes."},{"id":"tt0105112","type":"movie","name":"Patriot Games","poster":"https://images.metahub.space/poster/medium/tt0105112/img","background":"https://images.metahub.space/background/medium/tt0105112/img","releaseInfo":"1992","imdbRating":"6.9","genres":["Action","Thriller"],"runtime":"1h 57m","description":"Blockbuster '92 · #19 Biggest Hits · IMDb 6.9 from 130K votes."},{"id":"tt0104348","type":"movie","name":"Glengarry Glen Ross","poster":"https://images.metahub.space/poster/medium/tt0104348/img","background":"https://images.metahub.space/background/medium/tt0104348/img","releaseInfo":"1992","imdbRating":"7.6","genres":["Crime","Drama","Mystery"],"runtime":"1h 40m","description":"Blockbuster '92 · #20 Biggest Hits · IMDb 7.6 from 128K votes."},{"id":"tt0105665","type":"movie","name":"Twin Peaks: Fire Walk with Me","poster":"https://images.metahub.space/poster/medium/tt0105665/img","background":"https://images.metahub.space/background/medium/tt0105665/img","releaseInfo":"1992","imdbRating":"7.3","genres":["Drama","Horror","Mystery"],"runtime":"2h 14m","description":"Blockbuster '92 · #21 Biggest Hits · IMDb 7.3 from 120K votes."},{"id":"tt0105417","type":"movie","name":"Sister Act","poster":"https://images.metahub.space/poster/medium/tt0105417/img","background":"https://images.metahub.space/background/medium/tt0105417/img","releaseInfo":"1992","imdbRating":"6.6","genres":["Comedy","Family","Music"],"runtime":"1h 40m","description":"Blockbuster '92 · #22 Biggest Hits · IMDb 6.6 from 120K votes."},{"id":"tt0104652","type":"movie","name":"Porco Rosso","poster":"https://images.metahub.space/poster/medium/tt0104652/img","background":"https://images.metahub.space/background/medium/tt0104652/img","releaseInfo":"1992","imdbRating":"7.7","genres":["Adventure","Animation","Comedy"],"runtime":"1h 34m","description":"Blockbuster '92 · #23 Biggest Hits · IMDb 7.7 from 119K votes."},{"id":"tt0104797","type":"movie","name":"Malcolm X","poster":"https://images.metahub.space/poster/medium/tt0104797/img","background":"https://images.metahub.space/background/medium/tt0104797/img","releaseInfo":"1992","imdbRating":"7.7","genres":["Biography","Drama","History"],"runtime":"3h 22m","description":"Blockbuster '92 · #24 Biggest Hits · IMDb 7.7 from 113K votes."},{"id":"tt0103873","type":"movie","name":"Braindead","poster":"https://images.metahub.space/poster/medium/tt0103873/img","background":"https://images.metahub.space/background/medium/tt0103873/img","releaseInfo":"1992","imdbRating":"7.4","genres":["Comedy","Fantasy","Horror"],"runtime":"1h 44m","description":"Blockbuster '92 · #25 Biggest Hits · IMDb 7.4 from 111K votes."},{"id":"tt0103919","type":"movie","name":"Candyman","poster":"https://images.metahub.space/poster/medium/tt0103919/img","background":"https://images.metahub.space/background/medium/tt0103919/img","releaseInfo":"1992","imdbRating":"6.8","genres":["Horror","Thriller"],"runtime":"1h 39m","description":"Blockbuster '92 · #26 Biggest Hits · IMDb 6.8 from 111K votes."},{"id":"tt0105812","type":"movie","name":"White Men Can't Jump","poster":"https://images.metahub.space/poster/medium/tt0105812/img","background":"https://images.metahub.space/background/medium/tt0105812/img","releaseInfo":"1992","imdbRating":"6.8","genres":["Comedy","Sport"],"runtime":"1h 55m","description":"Blockbuster '92 · #27 Biggest Hits · IMDb 6.8 from 105K votes."},{"id":"tt0105690","type":"movie","name":"Under Siege","poster":"https://images.metahub.space/poster/medium/tt0105690/img","background":"https://images.metahub.space/background/medium/tt0105690/img","releaseInfo":"1992","imdbRating":"6.5","genres":["Action","Thriller"],"runtime":"1h 43m","description":"Blockbuster '92 · #28 Biggest Hits · IMDb 6.5 from 104K votes."},{"id":"tt0105698","type":"movie","name":"Universal Soldier","poster":"https://images.metahub.space/poster/medium/tt0105698/img","background":"https://images.metahub.space/background/medium/tt0105698/img","releaseInfo":"1992","imdbRating":"6.1","genres":["Action","Sci-Fi"],"runtime":"1h 42m","description":"Blockbuster '92 · #29 Biggest Hits · IMDb 6.1 from 103K votes."},{"id":"tt0104940","type":"movie","name":"The Muppet Christmas Carol","poster":"https://images.metahub.space/poster/medium/tt0104940/img","background":"https://images.metahub.space/background/medium/tt0104940/img","releaseInfo":"1992","imdbRating":"7.8","genres":["Comedy","Drama","Family"],"runtime":"1h 25m","description":"Blockbuster '92 · #30 Biggest Hits · IMDb 7.8 from 83K votes."},{"id":"tt0103786","type":"movie","name":"Beethoven","poster":"https://images.metahub.space/poster/medium/tt0103786/img","background":"https://images.metahub.space/background/medium/tt0103786/img","releaseInfo":"1992","imdbRating":"5.8","genres":["Comedy","Drama","Family"],"runtime":"1h 27m","description":"Blockbuster '92 · #31 Biggest Hits · IMDb 5.8 from 83K votes."},{"id":"tt0104868","type":"movie","name":"The Mighty Ducks","poster":"https://images.metahub.space/poster/medium/tt0104868/img","background":"https://images.metahub.space/background/medium/tt0104868/img","releaseInfo":"1992","imdbRating":"6.6","genres":["Comedy","Drama","Family"],"runtime":"1h 44m","description":"Blockbuster '92 · #32 Biggest Hits · IMDb 6.6 from 78K votes."},{"id":"tt0104815","type":"movie","name":"El Mariachi","poster":"https://images.metahub.space/poster/medium/tt0104815/img","background":"https://images.metahub.space/background/medium/tt0104815/img","releaseInfo":"1992","imdbRating":"6.8","genres":["Action","Crime","Thriller"],"runtime":"1h 21m","description":"Blockbuster '92 · #33 Biggest Hits · IMDb 6.8 from 76K votes."},{"id":"tt0104231","type":"movie","name":"Far and Away","poster":"https://images.metahub.space/poster/medium/tt0104231/img","background":"https://images.metahub.space/background/medium/tt0104231/img","releaseInfo":"1992","imdbRating":"6.6","genres":["Adventure","Drama","Romance"],"runtime":"2h 20m","description":"Blockbuster '92 · #34 Biggest Hits · IMDb 6.6 from 74K votes."},{"id":"tt0105151","type":"movie","name":"The Player","poster":"https://images.metahub.space/poster/medium/tt0105151/img","background":"https://images.metahub.space/background/medium/tt0105151/img","releaseInfo":"1992","imdbRating":"7.5","genres":["Comedy","Crime","Drama"],"runtime":"2h 04m","description":"Blockbuster '92 · #35 Biggest Hits · IMDb 7.5 from 73K votes."},{"id":"tt0105265","type":"movie","name":"A River Runs Through It","poster":"https://images.metahub.space/poster/medium/tt0105265/img","background":"https://images.metahub.space/background/medium/tt0105265/img","releaseInfo":"1992","imdbRating":"7.2","genres":["Drama"],"runtime":"2h 03m","description":"Blockbuster '92 · #36 Biggest Hits · IMDb 7.2 from 72K votes."},{"id":"tt0105435","type":"movie","name":"Sneakers","poster":"https://images.metahub.space/poster/medium/tt0105435/img","background":"https://images.metahub.space/background/medium/tt0105435/img","releaseInfo":"1992","imdbRating":"7.1","genres":["Comedy","Crime","Drama"],"runtime":"2h 06m","description":"Blockbuster '92 · #37 Biggest Hits · IMDb 7.1 from 68K votes."},{"id":"tt0103939","type":"movie","name":"Chaplin","poster":"https://images.metahub.space/poster/medium/tt0103939/img","background":"https://images.metahub.space/background/medium/tt0103939/img","releaseInfo":"1992","imdbRating":"7.5","genres":["Biography","Comedy","Drama"],"runtime":"2h 23m","description":"Blockbuster '92 · #38 Biggest Hits · IMDb 7.5 from 66K votes."},{"id":"tt0104036","type":"movie","name":"The Crying Game","poster":"https://images.metahub.space/poster/medium/tt0104036/img","background":"https://images.metahub.space/background/medium/tt0104036/img","releaseInfo":"1992","imdbRating":"7.2","genres":["Crime","Drama","Romance"],"runtime":"1h 52m","description":"Blockbuster '92 · #39 Biggest Hits · IMDb 7.2 from 64K votes."},{"id":"tt0104684","type":"movie","name":"Hard Boiled","poster":"https://images.metahub.space/poster/medium/tt0104684/img","background":"https://images.metahub.space/background/medium/tt0104684/img","releaseInfo":"1992","imdbRating":"7.7","genres":["Action","Crime","Thriller"],"runtime":"2h 08m","description":"Blockbuster '92 · #40 Biggest Hits · IMDb 7.7 from 61K votes."},{"id":"tt0104389","type":"movie","name":"The Hand That Rocks the Cradle","poster":"https://images.metahub.space/poster/medium/tt0104389/img","background":"https://images.metahub.space/background/medium/tt0104389/img","releaseInfo":"1992","imdbRating":"6.7","genres":["Drama","Thriller"],"runtime":"1h 50m","description":"Blockbuster '92 · #41 Biggest Hits · IMDb 6.7 from 57K votes."},{"id":"tt0105104","type":"movie","name":"Passenger 57","poster":"https://images.metahub.space/poster/medium/tt0105104/img","background":"https://images.metahub.space/background/medium/tt0105104/img","releaseInfo":"1992","imdbRating":"5.9","genres":["Action","Crime","Thriller"],"runtime":"1h 24m","description":"Blockbuster '92 · #42 Biggest Hits · IMDb 5.9 from 54K votes."},{"id":"tt0103759","type":"movie","name":"Bad Lieutenant","poster":"https://images.metahub.space/poster/medium/tt0103759/img","background":"https://images.metahub.space/background/medium/tt0103759/img","releaseInfo":"1992","imdbRating":"7.0","genres":["Crime","Drama","Thriller"],"runtime":"1h 36m","description":"Blockbuster '92 · #43 Biggest Hits · IMDb 7.0 from 53K votes."},{"id":"tt0104291","type":"movie","name":"Forever Young","poster":"https://images.metahub.space/poster/medium/tt0104291/img","background":"https://images.metahub.space/background/medium/tt0104291/img","releaseInfo":"1992","imdbRating":"6.4","genres":["Drama","Romance","Sci-Fi"],"runtime":"1h 42m","description":"Blockbuster '92 · #44 Biggest Hits · IMDb 6.4 from 53K votes."},{"id":"tt0103893","type":"movie","name":"Buffy the Vampire Slayer","poster":"https://images.metahub.space/poster/medium/tt0103893/img","background":"https://images.metahub.space/background/medium/tt0103893/img","releaseInfo":"1992","imdbRating":"5.7","genres":["Action","Comedy","Fantasy"],"runtime":"1h 26m","description":"Blockbuster '92 · #45 Biggest Hits · IMDb 5.7 from 53K votes."},{"id":"tt0105046","type":"movie","name":"Of Mice and Men","poster":"https://images.metahub.space/poster/medium/tt0105046/img","background":"https://images.metahub.space/background/medium/tt0105046/img","releaseInfo":"1992","imdbRating":"7.4","genres":["Drama","Western"],"runtime":"1h 55m","description":"Blockbuster '92 · #46 Biggest Hits · IMDb 7.4 from 52K votes."},{"id":"tt0104187","type":"movie","name":"Encino Man","poster":"https://images.metahub.space/poster/medium/tt0104187/img","background":"https://images.metahub.space/background/medium/tt0104187/img","releaseInfo":"1992","imdbRating":"5.9","genres":["Comedy"],"runtime":"1h 28m","description":"Blockbuster '92 · #47 Biggest Hits · IMDb 5.9 from 50K votes."},{"id":"tt0104437","type":"movie","name":"Honey, I Blew Up the Kid","poster":"https://images.metahub.space/poster/medium/tt0104437/img","background":"https://images.metahub.space/background/medium/tt0104437/img","releaseInfo":"1992","imdbRating":"4.9","genres":["Adventure","Comedy","Family"],"runtime":"1h 29m","description":"Blockbuster '92 · #48 Biggest Hits · IMDb 4.9 from 50K votes."},{"id":"tt0105414","type":"movie","name":"Single White Female","poster":"https://images.metahub.space/poster/medium/tt0105414/img","background":"https://images.metahub.space/background/medium/tt0105414/img","releaseInfo":"1992","imdbRating":"6.4","genres":["Drama","Thriller"],"runtime":"1h 47m","description":"Blockbuster '92 · #49 Biggest Hits · IMDb 6.4 from 47K votes."},{"id":"tt0104779","type":"movie","name":"Bitter Moon","poster":"https://images.metahub.space/poster/medium/tt0104779/img","background":"https://images.metahub.space/background/medium/tt0104779/img","releaseInfo":"1992","imdbRating":"7.2","genres":["Drama","Romance","Thriller"],"runtime":"2h 19m","description":"Blockbuster '92 · #50 Biggest Hits · IMDb 7.2 from 47K votes."}]}
+{
+  "metas": [
+    {
+      "id": "tt0105236",
+      "type": "movie",
+      "name": "Reservoir Dogs",
+      "poster": "https://images.metahub.space/poster/medium/tt0105236/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105236/img",
+      "releaseInfo": "1992",
+      "imdbRating": "8.2",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": "1h 39m",
+      "description": "Blockbuster '92 · #1 Biggest Hits · IMDb 8.2 from 1.2M votes."
+    },
+    {
+      "id": "tt0103639",
+      "type": "movie",
+      "name": "Aladdin",
+      "poster": "https://images.metahub.space/poster/medium/tt0103639/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103639/img",
+      "releaseInfo": "1992",
+      "imdbRating": "8.0",
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+      ],
+      "runtime": "1h 30m",
+      "description": "Blockbuster '92 · #2 Biggest Hits · IMDb 8.0 from 506K votes."
+    },
+    {
+      "id": "tt0105695",
+      "type": "movie",
+      "name": "Unforgiven",
+      "poster": "https://images.metahub.space/poster/medium/tt0105695/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105695/img",
+      "releaseInfo": "1992",
+      "imdbRating": "8.2",
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "runtime": "2h 10m",
+      "description": "Blockbuster '92 · #3 Biggest Hits · IMDb 8.2 from 474K votes."
+    },
+    {
+      "id": "tt0104431",
+      "type": "movie",
+      "name": "Home Alone 2: Lost in New York",
+      "poster": "https://images.metahub.space/poster/medium/tt0104431/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104431/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.9",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "runtime": "2h 00m",
+      "description": "Blockbuster '92 · #4 Biggest Hits · IMDb 6.9 from 463K votes."
+    },
+    {
+      "id": "tt0105323",
+      "type": "movie",
+      "name": "Scent of a Woman",
+      "poster": "https://images.metahub.space/poster/medium/tt0105323/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105323/img",
+      "releaseInfo": "1992",
+      "imdbRating": "8.0",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": "2h 36m",
+      "description": "Blockbuster '92 · #5 Biggest Hits · IMDb 8.0 from 377K votes."
+    },
+    {
+      "id": "tt0103644",
+      "type": "movie",
+      "name": "Alien³",
+      "poster": "https://images.metahub.space/poster/medium/tt0103644/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103644/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 54m",
+      "description": "Blockbuster '92 · #6 Biggest Hits · IMDb 6.4 from 356K votes."
+    },
+    {
+      "id": "tt0103776",
+      "type": "movie",
+      "name": "Batman Returns",
+      "poster": "https://images.metahub.space/poster/medium/tt0103776/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103776/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.1",
+      "genres": [
+        "Action",
+        "Crime",
+        "Fantasy"
+      ],
+      "runtime": "2h 06m",
+      "description": "Blockbuster '92 · #7 Biggest Hits · IMDb 7.1 from 354K votes."
+    },
+    {
+      "id": "tt0104257",
+      "type": "movie",
+      "name": "A Few Good Men",
+      "poster": "https://images.metahub.space/poster/medium/tt0104257/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104257/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.8",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": "2h 18m",
+      "description": "Blockbuster '92 · #8 Biggest Hits · IMDb 7.8 from 323K votes."
+    },
+    {
+      "id": "tt0103874",
+      "type": "movie",
+      "name": "Dracula",
+      "poster": "https://images.metahub.space/poster/medium/tt0103874/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103874/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Romance"
+      ],
+      "runtime": "2h 08m",
+      "description": "Blockbuster '92 · #9 Biggest Hits · IMDb 7.4 from 272K votes."
+    },
+    {
+      "id": "tt0103772",
+      "type": "movie",
+      "name": "Basic Instinct",
+      "poster": "https://images.metahub.space/poster/medium/tt0103772/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103772/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.1",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Romance"
+      ],
+      "runtime": "2h 07m",
+      "description": "Blockbuster '92 · #10 Biggest Hits · IMDb 7.1 from 248K votes."
+    },
+    {
+      "id": "tt0106308",
+      "type": "movie",
+      "name": "Army of Darkness",
+      "poster": "https://images.metahub.space/poster/medium/tt0106308/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0106308/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Comedy",
+        "Horror"
+      ],
+      "runtime": "1h 21m",
+      "description": "Blockbuster '92 · #11 Biggest Hits · IMDb 7.4 from 213K votes."
+    },
+    {
+      "id": "tt0104691",
+      "type": "movie",
+      "name": "The Last of the Mohicans",
+      "poster": "https://images.metahub.space/poster/medium/tt0104691/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104691/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.6",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "runtime": "1h 52m",
+      "description": "Blockbuster '92 · #12 Biggest Hits · IMDb 7.6 from 210K votes."
+    },
+    {
+      "id": "tt0104714",
+      "type": "movie",
+      "name": "Lethal Weapon 3",
+      "poster": "https://images.metahub.space/poster/medium/tt0104714/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104714/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.7",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": "1h 58m",
+      "description": "Blockbuster '92 · #13 Biggest Hits · IMDb 6.7 from 190K votes."
+    },
+    {
+      "id": "tt0105793",
+      "type": "movie",
+      "name": "Wayne's World",
+      "poster": "https://images.metahub.space/poster/medium/tt0105793/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105793/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.0",
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
+      "runtime": "1h 34m",
+      "description": "Blockbuster '92 · #14 Biggest Hits · IMDb 7.0 from 184K votes."
+    },
+    {
+      "id": "tt0104952",
+      "type": "movie",
+      "name": "My Cousin Vinny",
+      "poster": "https://images.metahub.space/poster/medium/tt0104952/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104952/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.6",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "runtime": "1h 59m",
+      "description": "Blockbuster '92 · #15 Biggest Hits · IMDb 7.6 from 162K votes."
+    },
+    {
+      "id": "tt0103855",
+      "type": "movie",
+      "name": "The Bodyguard",
+      "poster": "https://images.metahub.space/poster/medium/tt0103855/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103855/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "runtime": "2h 09m",
+      "description": "Blockbuster '92 · #16 Biggest Hits · IMDb 6.4 from 161K votes."
+    },
+    {
+      "id": "tt0104070",
+      "type": "movie",
+      "name": "Death Becomes Her",
+      "poster": "https://images.metahub.space/poster/medium/tt0104070/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104070/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.7",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 44m",
+      "description": "Blockbuster '92 · #17 Biggest Hits · IMDb 6.7 from 152K votes."
+    },
+    {
+      "id": "tt0104694",
+      "type": "movie",
+      "name": "A League of Their Own",
+      "poster": "https://images.metahub.space/poster/medium/tt0104694/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104694/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ],
+      "runtime": "2h 08m",
+      "description": "Blockbuster '92 · #18 Biggest Hits · IMDb 7.4 from 133K votes."
+    },
+    {
+      "id": "tt0105112",
+      "type": "movie",
+      "name": "Patriot Games",
+      "poster": "https://images.metahub.space/poster/medium/tt0105112/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105112/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.9",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "runtime": "1h 57m",
+      "description": "Blockbuster '92 · #19 Biggest Hits · IMDb 6.9 from 130K votes."
+    },
+    {
+      "id": "tt0104348",
+      "type": "movie",
+      "name": "Glengarry Glen Ross",
+      "poster": "https://images.metahub.space/poster/medium/tt0104348/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104348/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.6",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": "1h 40m",
+      "description": "Blockbuster '92 · #20 Biggest Hits · IMDb 7.6 from 128K votes."
+    },
+    {
+      "id": "tt0105665",
+      "type": "movie",
+      "name": "Twin Peaks: Fire Walk with Me",
+      "poster": "https://images.metahub.space/poster/medium/tt0105665/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105665/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.3",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "runtime": "2h 14m",
+      "description": "Blockbuster '92 · #21 Biggest Hits · IMDb 7.3 from 120K votes."
+    },
+    {
+      "id": "tt0105417",
+      "type": "movie",
+      "name": "Sister Act",
+      "poster": "https://images.metahub.space/poster/medium/tt0105417/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105417/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.6",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Music"
+      ],
+      "runtime": "1h 40m",
+      "description": "Blockbuster '92 · #22 Biggest Hits · IMDb 6.6 from 120K votes."
+    },
+    {
+      "id": "tt0104652",
+      "type": "movie",
+      "name": "Porco Rosso",
+      "poster": "https://images.metahub.space/poster/medium/tt0104652/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104652/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.7",
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy"
+      ],
+      "runtime": "1h 34m",
+      "description": "Blockbuster '92 · #23 Biggest Hits · IMDb 7.7 from 119K votes."
+    },
+    {
+      "id": "tt0104797",
+      "type": "movie",
+      "name": "Malcolm X",
+      "poster": "https://images.metahub.space/poster/medium/tt0104797/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104797/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.7",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "runtime": "3h 22m",
+      "description": "Blockbuster '92 · #24 Biggest Hits · IMDb 7.7 from 113K votes."
+    },
+    {
+      "id": "tt0103873",
+      "type": "movie",
+      "name": "Braindead",
+      "poster": "https://images.metahub.space/poster/medium/tt0103873/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103873/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 44m",
+      "description": "Blockbuster '92 · #25 Biggest Hits · IMDb 7.4 from 111K votes."
+    }
+  ]
+}
