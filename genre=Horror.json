@@ -1,0 +1,298 @@
+{
+  "metas": [
+    {
+      "id": "tt0103644",
+      "type": "movie",
+      "name": "Alien³",
+      "poster": "https://images.metahub.space/poster/medium/tt0103644/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103644/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 54m",
+      "description": "Blockbuster '92 · #1 Horror · IMDb 6.4 from 356K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103644"
+      }
+    },
+    {
+      "id": "tt0103874",
+      "type": "movie",
+      "name": "Dracula",
+      "poster": "https://images.metahub.space/poster/medium/tt0103874/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103874/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Romance"
+      ],
+      "runtime": "2h 08m",
+      "description": "Blockbuster '92 · #2 Horror · IMDb 7.4 from 272K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103874"
+      }
+    },
+    {
+      "id": "tt0106308",
+      "type": "movie",
+      "name": "Army of Darkness",
+      "poster": "https://images.metahub.space/poster/medium/tt0106308/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0106308/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Comedy",
+        "Horror"
+      ],
+      "runtime": "1h 21m",
+      "description": "Blockbuster '92 · #3 Horror · IMDb 7.4 from 213K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0106308"
+      }
+    },
+    {
+      "id": "tt0104070",
+      "type": "movie",
+      "name": "Death Becomes Her",
+      "poster": "https://images.metahub.space/poster/medium/tt0104070/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104070/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.7",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 44m",
+      "description": "Blockbuster '92 · #4 Horror · IMDb 6.7 from 152K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104070"
+      }
+    },
+    {
+      "id": "tt0105665",
+      "type": "movie",
+      "name": "Twin Peaks: Fire Walk with Me",
+      "poster": "https://images.metahub.space/poster/medium/tt0105665/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105665/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.3",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "runtime": "2h 14m",
+      "description": "Blockbuster '92 · #5 Horror · IMDb 7.3 from 120K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105665"
+      }
+    },
+    {
+      "id": "tt0103873",
+      "type": "movie",
+      "name": "Braindead",
+      "poster": "https://images.metahub.space/poster/medium/tt0103873/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103873/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 44m",
+      "description": "Blockbuster '92 · #6 Horror · IMDb 7.4 from 111K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103873"
+      }
+    },
+    {
+      "id": "tt0103919",
+      "type": "movie",
+      "name": "Candyman",
+      "poster": "https://images.metahub.space/poster/medium/tt0103919/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103919/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.8",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": "1h 39m",
+      "description": "Blockbuster '92 · #7 Horror · IMDb 6.8 from 111K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103919"
+      }
+    },
+    {
+      "id": "tt0104692",
+      "type": "movie",
+      "name": "The Lawnmower Man",
+      "poster": "https://images.metahub.space/poster/medium/tt0104692/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104692/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.5",
+      "genres": [
+        "Horror",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 48m",
+      "description": "Blockbuster '92 · #8 Horror · IMDb 5.5 from 43K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104692"
+      }
+    },
+    {
+      "id": "tt0104409",
+      "type": "movie",
+      "name": "Hellraiser III: Hell on Earth",
+      "poster": "https://images.metahub.space/poster/medium/tt0104409/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104409/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.5",
+      "genres": [
+        "Horror"
+      ],
+      "runtime": "1h 33m",
+      "description": "Blockbuster '92 · #9 Horror · IMDb 5.5 from 39K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104409"
+      }
+    },
+    {
+      "id": "tt0104029",
+      "type": "movie",
+      "name": "Cronos",
+      "poster": "https://images.metahub.space/poster/medium/tt0104029/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104029/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.7",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 34m",
+      "description": "Blockbuster '92 · #10 Horror · IMDb 6.7 from 37K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104029"
+      }
+    },
+    {
+      "id": "tt0105217",
+      "type": "movie",
+      "name": "Raising Cain",
+      "poster": "https://images.metahub.space/poster/medium/tt0105217/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105217/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.1",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Horror"
+      ],
+      "runtime": "1h 32m",
+      "description": "Blockbuster '92 · #11 Horror · IMDb 6.1 from 19K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105217"
+      }
+    },
+    {
+      "id": "tt0105459",
+      "type": "movie",
+      "name": "Split Second",
+      "poster": "https://images.metahub.space/poster/medium/tt0105459/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105459/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.0",
+      "genres": [
+        "Action",
+        "Crime",
+        "Horror"
+      ],
+      "runtime": "1h 30m",
+      "description": "Blockbuster '92 · #12 Horror · IMDb 6.0 from 19K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105459"
+      }
+    },
+    {
+      "id": "tt0104155",
+      "type": "movie",
+      "name": "Dust Devil",
+      "poster": "https://images.metahub.space/poster/medium/tt0104155/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104155/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.2",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "runtime": "1h 27m",
+      "description": "Blockbuster '92 · #13 Horror · IMDb 6.2 from 7K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104155"
+      }
+    },
+    {
+      "id": "tt0105569",
+      "type": "movie",
+      "name": "Tetsuo II: Body Hammer",
+      "poster": "https://images.metahub.space/poster/medium/tt0105569/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105569/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 23m",
+      "description": "Blockbuster '92 · #14 Horror · IMDb 6.4 from 6K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105569"
+      }
+    },
+    {
+      "id": "tt0104870",
+      "type": "movie",
+      "name": "Mikey",
+      "poster": "https://images.metahub.space/poster/medium/tt0104870/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104870/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.7",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": "1h 32m",
+      "description": "Blockbuster '92 · #15 Horror · IMDb 5.7 from 4K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104870"
+      }
+    }
+  ]
+}

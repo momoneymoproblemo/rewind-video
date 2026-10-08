@@ -185,6 +185,9 @@ async function main() {
     const metas = shelves[row.id].map((f, i) => ({
       id: f.id,
       type: 'movie',
+      // A movie has one video: route directly to its stream list instead of waiting
+      // for metadata providers to finish before Stremio guesses the video ID.
+      behaviorHints: { defaultVideoId: f.id },
       name: f.name,
       poster: `https://images.metahub.space/poster/medium/${f.id}/img`,
       posterShape: 'poster',
@@ -212,7 +215,7 @@ async function main() {
 
   write('manifest.json', {
     id: 'community.rewindvideo',
-    version: '1.3.1',
+    version: '1.3.2',
     name: 'Blockbuster Video',
     description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
     logo: `${BASE}/logo.png`,

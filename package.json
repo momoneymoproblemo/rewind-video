@@ -1,6 +1,6 @@
 {
   "name": "blockbuster-video",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Blockbuster Video: one weekly time-travelling Stremio catalogue with selectable genre aisles",
   "scripts": {
     "build": "node build.js"

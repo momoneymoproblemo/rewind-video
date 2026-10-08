@@ -34,3 +34,7 @@ Stremio catalogue/filter protocol: https://stremio.github.io/stremio-addon-sdk/a
 Stremio deep links: https://stremio.github.io/stremio-addon-sdk/deep-links.html
 
 Unofficial fan project. Not affiliated with Blockbuster, IMDb or Stremio. Film data from IMDb's public datasets. This add-on supplies catalogues, not streams.
+
+## Direct movie stream links
+
+Every movie catalogue preview includes `behaviorHints.defaultVideoId` equal to its IMDb ID. This lets compatible Stremio clients open the stream list directly, rather than waiting for metadata providers to finish before guessing the video ID. The add-on remains catalogue-only; installed streaming add-ons provide playable files. Series must not use their parent IMDb ID as a default episode ID.

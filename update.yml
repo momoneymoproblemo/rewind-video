@@ -1,4 +1,4 @@
-name: Restock Rewind Video
+name: Restock Blockbuster Video
 
 on:
   schedule:
@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add docs
-          git diff --cached --quiet || git commit -m "Restock Rewind Video"
+          git diff --cached --quiet || git commit -m "Restock Blockbuster Video"
           git push
