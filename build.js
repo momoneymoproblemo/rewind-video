@@ -13,7 +13,7 @@ const PER_ROW = 25;                          // up to 25 films per shelf
 const MIN_RUNTIME = 60;                      // minutes; drops shorts and featurettes
 const SHELF_MIN_VOTES = 3000;                // genre shelves: films people actually rented
 const BEST_MIN_VOTES = 5000, BEST_MIN_RATING = 6.5; // "Best of the Year"
-const SHELF_MIN_RATING = 5.5;                // genre shelves skip the real stinkers (Biggest Hits doesn't — that's the point)
+const SHELF_MIN_RATING = 5.5;                // genre shelves skip the real stinkers (Most Rented doesn't — that's the point)
 const SCHEDULE_EPOCH = '2026-01-05';         // a Monday; week numbers count from here
 const TIME_ZONE = 'Australia/Melbourne';     // the store restocks on Monday, Melbourne time
 // ---------------------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ const CATALOG_ID = 'blockbuster-video-v2';
 // Ten internal aisles feed one Blockbuster Video catalogue with a genre dropdown.
 const has = (...gs) => (f) => gs.some((g) => f.genres.includes(g));
 const ROWS = [
-  { id: 'rewind-biggest', name: 'Blockbuster · Biggest Hits', label: 'Biggest Hits', kind: 'biggest' },
+  { id: 'rewind-biggest', name: 'Blockbuster · Most Rented', label: 'Most Rented', kind: 'biggest' },
   { id: 'rewind-best', name: 'Blockbuster · Best of the Year', label: 'Best of the Year', kind: 'best' },
   { id: 'rewind-action', name: 'Blockbuster · Action', label: 'Action', kind: 'shelf', match: has('Action') },
   { id: 'rewind-comedy', name: 'Blockbuster · Comedy', label: 'Comedy', kind: 'shelf', match: has('Comedy') },
@@ -159,7 +159,7 @@ async function main() {
   console.log(`  ${films.length} films from ${year}`);
   if (films.length < 100) throw new Error('Too few films — check the IMDb download.');
 
-  // Biggest Hits and the genre aisles lead with what everyone rented (most votes).
+  // Most Rented and the genre aisles lead with what everyone rented (most votes).
   // Best of the Year uses IMDb Top 250-style weighting, so it's about quality, not just popularity.
   const votesDesc = films.map((f) => f.votes).sort((a, b) => b - a);
   const m = clamp(votesDesc[49] / 2, 2000, 50000);
@@ -201,7 +201,7 @@ async function main() {
     // Stremio's genre extra is a URL-encoded path segment, not a query parameter.
     // The decoded filename is used by static hosts such as GitHub Pages.
     if (row.kind === 'biggest') {
-      // An unfiltered visit always opens Biggest Hits; compatibility aliases do too.
+      // An unfiltered visit always opens Most Rented; compatibility aliases do too.
       write(`catalog/movie/${CATALOG_ID}.json`, { metas });
       for (const filter of ['', 'Top', 'All']) write(`catalog/movie/${CATALOG_ID}/genre=${filter}.json`, { metas });
     }
@@ -215,9 +215,9 @@ async function main() {
 
   write('manifest.json', {
     id: 'community.rewindvideo',
-    version: '1.3.3',
+    version: '1.3.4',
     name: 'Blockbuster Video',
-    description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
+    description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Most Rented, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
     logo: `${BASE}/logo.png`,
     background: `${BASE}/background.jpg`,
     resources: ['catalog'],

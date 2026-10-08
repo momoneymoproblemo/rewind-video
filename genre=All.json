@@ -14,7 +14,7 @@
         "Thriller"
       ],
       "runtime": "1h 39m",
-      "description": "Blockbuster '92 · #1 Biggest Hits · IMDb 8.2 from 1.2M votes.",
+      "description": "Blockbuster '92 · #1 Most Rented · IMDb 8.2 from 1.2M votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105236"
       }
@@ -34,7 +34,7 @@
         "Comedy"
       ],
       "runtime": "1h 30m",
-      "description": "Blockbuster '92 · #2 Biggest Hits · IMDb 8.0 from 506K votes.",
+      "description": "Blockbuster '92 · #2 Most Rented · IMDb 8.0 from 506K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103639"
       }
@@ -53,7 +53,7 @@
         "Western"
       ],
       "runtime": "2h 10m",
-      "description": "Blockbuster '92 · #3 Biggest Hits · IMDb 8.2 from 474K votes.",
+      "description": "Blockbuster '92 · #3 Most Rented · IMDb 8.2 from 474K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105695"
       }
@@ -73,7 +73,7 @@
         "Crime"
       ],
       "runtime": "2h 00m",
-      "description": "Blockbuster '92 · #4 Biggest Hits · IMDb 6.9 from 463K votes.",
+      "description": "Blockbuster '92 · #4 Most Rented · IMDb 6.9 from 463K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104431"
       }
@@ -91,7 +91,7 @@
         "Drama"
       ],
       "runtime": "2h 36m",
-      "description": "Blockbuster '92 · #5 Biggest Hits · IMDb 8.0 from 377K votes.",
+      "description": "Blockbuster '92 · #5 Most Rented · IMDb 8.0 from 377K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105323"
       }
@@ -111,7 +111,7 @@
         "Sci-Fi"
       ],
       "runtime": "1h 54m",
-      "description": "Blockbuster '92 · #6 Biggest Hits · IMDb 6.4 from 356K votes.",
+      "description": "Blockbuster '92 · #6 Most Rented · IMDb 6.4 from 356K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103644"
       }
@@ -131,7 +131,7 @@
         "Fantasy"
       ],
       "runtime": "2h 06m",
-      "description": "Blockbuster '92 · #7 Biggest Hits · IMDb 7.1 from 354K votes.",
+      "description": "Blockbuster '92 · #7 Most Rented · IMDb 7.1 from 354K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103776"
       }
@@ -150,7 +150,7 @@
         "Thriller"
       ],
       "runtime": "2h 18m",
-      "description": "Blockbuster '92 · #8 Biggest Hits · IMDb 7.8 from 323K votes.",
+      "description": "Blockbuster '92 · #8 Most Rented · IMDb 7.8 from 323K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104257"
       }
@@ -170,7 +170,7 @@
         "Romance"
       ],
       "runtime": "2h 08m",
-      "description": "Blockbuster '92 · #9 Biggest Hits · IMDb 7.4 from 272K votes.",
+      "description": "Blockbuster '92 · #9 Most Rented · IMDb 7.4 from 272K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103874"
       }
@@ -190,7 +190,7 @@
         "Romance"
       ],
       "runtime": "2h 07m",
-      "description": "Blockbuster '92 · #10 Biggest Hits · IMDb 7.1 from 248K votes.",
+      "description": "Blockbuster '92 · #10 Most Rented · IMDb 7.1 from 248K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103772"
       }
@@ -209,7 +209,7 @@
         "Horror"
       ],
       "runtime": "1h 21m",
-      "description": "Blockbuster '92 · #11 Biggest Hits · IMDb 7.4 from 213K votes.",
+      "description": "Blockbuster '92 · #11 Most Rented · IMDb 7.4 from 213K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0106308"
       }
@@ -229,7 +229,7 @@
         "Drama"
       ],
       "runtime": "1h 52m",
-      "description": "Blockbuster '92 · #12 Biggest Hits · IMDb 7.6 from 210K votes.",
+      "description": "Blockbuster '92 · #12 Most Rented · IMDb 7.6 from 210K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104691"
       }
@@ -249,7 +249,7 @@
         "Thriller"
       ],
       "runtime": "1h 58m",
-      "description": "Blockbuster '92 · #13 Biggest Hits · IMDb 6.7 from 190K votes.",
+      "description": "Blockbuster '92 · #13 Most Rented · IMDb 6.7 from 190K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104714"
       }
@@ -268,7 +268,7 @@
         "Music"
       ],
       "runtime": "1h 34m",
-      "description": "Blockbuster '92 · #14 Biggest Hits · IMDb 7.0 from 184K votes.",
+      "description": "Blockbuster '92 · #14 Most Rented · IMDb 7.0 from 184K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105793"
       }
@@ -287,7 +287,7 @@
         "Crime"
       ],
       "runtime": "1h 59m",
-      "description": "Blockbuster '92 · #15 Biggest Hits · IMDb 7.6 from 162K votes.",
+      "description": "Blockbuster '92 · #15 Most Rented · IMDb 7.6 from 162K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104952"
       }
@@ -307,7 +307,7 @@
         "Romance"
       ],
       "runtime": "2h 09m",
-      "description": "Blockbuster '92 · #16 Biggest Hits · IMDb 6.4 from 161K votes.",
+      "description": "Blockbuster '92 · #16 Most Rented · IMDb 6.4 from 161K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103855"
       }
@@ -327,7 +327,7 @@
         "Horror"
       ],
       "runtime": "1h 44m",
-      "description": "Blockbuster '92 · #17 Biggest Hits · IMDb 6.7 from 152K votes.",
+      "description": "Blockbuster '92 · #17 Most Rented · IMDb 6.7 from 152K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104070"
       }
@@ -347,7 +347,7 @@
         "Sport"
       ],
       "runtime": "2h 08m",
-      "description": "Blockbuster '92 · #18 Biggest Hits · IMDb 7.4 from 133K votes.",
+      "description": "Blockbuster '92 · #18 Most Rented · IMDb 7.4 from 133K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104694"
       }
@@ -366,7 +366,7 @@
         "Thriller"
       ],
       "runtime": "1h 57m",
-      "description": "Blockbuster '92 · #19 Biggest Hits · IMDb 6.9 from 130K votes.",
+      "description": "Blockbuster '92 · #19 Most Rented · IMDb 6.9 from 130K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105112"
       }
@@ -386,7 +386,7 @@
         "Mystery"
       ],
       "runtime": "1h 40m",
-      "description": "Blockbuster '92 · #20 Biggest Hits · IMDb 7.6 from 128K votes.",
+      "description": "Blockbuster '92 · #20 Most Rented · IMDb 7.6 from 128K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104348"
       }
@@ -406,7 +406,7 @@
         "Mystery"
       ],
       "runtime": "2h 14m",
-      "description": "Blockbuster '92 · #21 Biggest Hits · IMDb 7.3 from 120K votes.",
+      "description": "Blockbuster '92 · #21 Most Rented · IMDb 7.3 from 120K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105665"
       }
@@ -426,7 +426,7 @@
         "Music"
       ],
       "runtime": "1h 40m",
-      "description": "Blockbuster '92 · #22 Biggest Hits · IMDb 6.6 from 120K votes.",
+      "description": "Blockbuster '92 · #22 Most Rented · IMDb 6.6 from 120K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0105417"
       }
@@ -446,7 +446,7 @@
         "Comedy"
       ],
       "runtime": "1h 34m",
-      "description": "Blockbuster '92 · #23 Biggest Hits · IMDb 7.7 from 119K votes.",
+      "description": "Blockbuster '92 · #23 Most Rented · IMDb 7.7 from 119K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104652"
       }
@@ -466,7 +466,7 @@
         "History"
       ],
       "runtime": "3h 22m",
-      "description": "Blockbuster '92 · #24 Biggest Hits · IMDb 7.7 from 113K votes.",
+      "description": "Blockbuster '92 · #24 Most Rented · IMDb 7.7 from 113K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0104797"
       }
@@ -486,7 +486,7 @@
         "Horror"
       ],
       "runtime": "1h 44m",
-      "description": "Blockbuster '92 · #25 Biggest Hits · IMDb 7.4 from 111K votes.",
+      "description": "Blockbuster '92 · #25 Most Rented · IMDb 7.4 from 111K votes.",
       "behaviorHints": {
         "defaultVideoId": "tt0103873"
       }

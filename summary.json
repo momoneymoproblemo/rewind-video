@@ -5,7 +5,7 @@
   "rows": [
     {
       "id": "rewind-biggest",
-      "label": "Biggest Hits",
+      "label": "Most Rented",
       "count": 25,
       "films": [
         {
