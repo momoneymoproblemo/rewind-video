@@ -21,7 +21,7 @@ const TIME_ZONE = 'Australia/Melbourne';     // the store restocks on Monday, Me
 const OUT = path.join(__dirname, 'docs');
 const BASE = 'https://momoneymoproblemo.github.io/rewind-video';
 const DATA = 'https://datasets.imdbws.com/';
-const CATALOG_ID = 'blockbuster-video';
+const CATALOG_ID = 'blockbuster-video-v2';
 
 // Ten internal aisles feed one Blockbuster Video catalogue with a genre dropdown.
 const has = (...gs) => (f) => gs.some((g) => f.genres.includes(g));
@@ -215,7 +215,7 @@ async function main() {
 
   write('manifest.json', {
     id: 'community.rewindvideo',
-    version: '1.3.2',
+    version: '1.3.3',
     name: 'Blockbuster Video',
     description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
     logo: `${BASE}/logo.png`,

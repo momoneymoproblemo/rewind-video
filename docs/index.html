@@ -217,7 +217,7 @@ footer{background:#101952 url(carpet.svg) center/260px;padding:22px 0 30px}foote
 <script>
   const base = location.href.split(/[?#]/)[0].replace(/[^/]*$/, '');
   const manifest = base + 'manifest.json';
-  document.getElementById('browseHits').href = 'stremio:///discover/' + encodeURIComponent(manifest) + '/movie/blockbuster-video?genre=Biggest%20Hits';
+  document.getElementById('browseHits').href = 'stremio:///discover/' + encodeURIComponent(manifest) + '/movie/blockbuster-video-v2?genre=Biggest%20Hits';
   document.getElementById('install').href = manifest.replace(/^https?:\/\//, 'stremio://');
   const copyBtn = document.getElementById('copyBtn');
   copyBtn.addEventListener('click', async () => {
@@ -286,7 +286,7 @@ footer{background:#101952 url(carpet.svg) center/260px;padding:22px 0 30px}foote
     const grid = document.getElementById('aisleGrid');
     s.rows.forEach((r) => {
       const a = document.createElement('a'); a.className = 'aisle';
-      a.href = 'stremio:///discover/' + encodeURIComponent(manifest) + '/movie/blockbuster-video?genre=' + encodeURIComponent(r.label); a.setAttribute('aria-label', 'Browse ' + r.label + ' in Stremio');
+      a.href = 'stremio:///discover/' + encodeURIComponent(manifest) + '/movie/blockbuster-video-v2?genre=' + encodeURIComponent(r.label); a.setAttribute('aria-label', 'Browse ' + r.label + ' in Stremio');
       a.innerHTML = '<div class="board"></div><div class="spines"></div>';
       a.querySelector('.board').textContent = r.label;
       const sp = a.querySelector('.spines');

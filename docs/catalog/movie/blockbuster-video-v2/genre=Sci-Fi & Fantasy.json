@@ -1,0 +1,482 @@
+{
+  "metas": [
+    {
+      "id": "tt0103644",
+      "type": "movie",
+      "name": "Alien³",
+      "poster": "https://images.metahub.space/poster/medium/tt0103644/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103644/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 54m",
+      "description": "Blockbuster '92 · #1 Sci-Fi & Fantasy · IMDb 6.4 from 356K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103644"
+      }
+    },
+    {
+      "id": "tt0103776",
+      "type": "movie",
+      "name": "Batman Returns",
+      "poster": "https://images.metahub.space/poster/medium/tt0103776/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103776/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.1",
+      "genres": [
+        "Action",
+        "Crime",
+        "Fantasy"
+      ],
+      "runtime": "2h 06m",
+      "description": "Blockbuster '92 · #2 Sci-Fi & Fantasy · IMDb 7.1 from 354K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103776"
+      }
+    },
+    {
+      "id": "tt0103874",
+      "type": "movie",
+      "name": "Dracula",
+      "poster": "https://images.metahub.space/poster/medium/tt0103874/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103874/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Romance"
+      ],
+      "runtime": "2h 08m",
+      "description": "Blockbuster '92 · #3 Sci-Fi & Fantasy · IMDb 7.4 from 272K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103874"
+      }
+    },
+    {
+      "id": "tt0104070",
+      "type": "movie",
+      "name": "Death Becomes Her",
+      "poster": "https://images.metahub.space/poster/medium/tt0104070/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104070/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.7",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 44m",
+      "description": "Blockbuster '92 · #4 Sci-Fi & Fantasy · IMDb 6.7 from 152K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104070"
+      }
+    },
+    {
+      "id": "tt0103873",
+      "type": "movie",
+      "name": "Braindead",
+      "poster": "https://images.metahub.space/poster/medium/tt0103873/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103873/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.4",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 44m",
+      "description": "Blockbuster '92 · #5 Sci-Fi & Fantasy · IMDb 7.4 from 111K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103873"
+      }
+    },
+    {
+      "id": "tt0105698",
+      "type": "movie",
+      "name": "Universal Soldier",
+      "poster": "https://images.metahub.space/poster/medium/tt0105698/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105698/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.1",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 42m",
+      "description": "Blockbuster '92 · #6 Sci-Fi & Fantasy · IMDb 6.1 from 103K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105698"
+      }
+    },
+    {
+      "id": "tt0104291",
+      "type": "movie",
+      "name": "Forever Young",
+      "poster": "https://images.metahub.space/poster/medium/tt0104291/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104291/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 42m",
+      "description": "Blockbuster '92 · #7 Sci-Fi & Fantasy · IMDb 6.4 from 53K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104291"
+      }
+    },
+    {
+      "id": "tt0103893",
+      "type": "movie",
+      "name": "Buffy the Vampire Slayer",
+      "poster": "https://images.metahub.space/poster/medium/tt0103893/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103893/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.7",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
+      "runtime": "1h 26m",
+      "description": "Blockbuster '92 · #8 Sci-Fi & Fantasy · IMDb 5.7 from 53K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103893"
+      }
+    },
+    {
+      "id": "tt0104692",
+      "type": "movie",
+      "name": "The Lawnmower Man",
+      "poster": "https://images.metahub.space/poster/medium/tt0104692/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104692/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.5",
+      "genres": [
+        "Horror",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 48m",
+      "description": "Blockbuster '92 · #9 Sci-Fi & Fantasy · IMDb 5.5 from 43K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104692"
+      }
+    },
+    {
+      "id": "tt0104029",
+      "type": "movie",
+      "name": "Cronos",
+      "poster": "https://images.metahub.space/poster/medium/tt0104029/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104029/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.7",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 34m",
+      "description": "Blockbuster '92 · #10 Sci-Fi & Fantasy · IMDb 6.7 from 37K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104029"
+      }
+    },
+    {
+      "id": "tt0106950",
+      "type": "movie",
+      "name": "Fortress",
+      "poster": "https://images.metahub.space/poster/medium/tt0106950/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0106950/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.9",
+      "genres": [
+        "Action",
+        "Crime",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 35m",
+      "description": "Blockbuster '92 · #11 Sci-Fi & Fantasy · IMDb 5.9 from 32K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0106950"
+      }
+    },
+    {
+      "id": "tt0104850",
+      "type": "movie",
+      "name": "Memoirs of an Invisible Man",
+      "poster": "https://images.metahub.space/poster/medium/tt0104850/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104850/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.0",
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 39m",
+      "description": "Blockbuster '92 · #12 Sci-Fi & Fantasy · IMDb 6.0 from 30K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104850"
+      }
+    },
+    {
+      "id": "tt0107756",
+      "type": "movie",
+      "name": "Orlando",
+      "poster": "https://images.metahub.space/poster/medium/tt0107756/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0107756/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.1",
+      "genres": [
+        "Biography",
+        "Drama",
+        "Fantasy"
+      ],
+      "runtime": "1h 34m",
+      "description": "Blockbuster '92 · #13 Sci-Fi & Fantasy · IMDb 7.1 from 21K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0107756"
+      }
+    },
+    {
+      "id": "tt0102343",
+      "type": "movie",
+      "name": "Love Potion No. 9",
+      "poster": "https://images.metahub.space/poster/medium/tt0102343/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0102343/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.7",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "runtime": "1h 32m",
+      "description": "Blockbuster '92 · #14 Sci-Fi & Fantasy · IMDb 5.7 from 16K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0102343"
+      }
+    },
+    {
+      "id": "tt0105466",
+      "type": "movie",
+      "name": "Stay Tuned",
+      "poster": "https://images.metahub.space/poster/medium/tt0105466/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105466/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.3",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "runtime": "1h 28m",
+      "description": "Blockbuster '92 · #15 Sci-Fi & Fantasy · IMDb 6.3 from 14K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105466"
+      }
+    },
+    {
+      "id": "tt0104860",
+      "type": "movie",
+      "name": "We Are Not Angels",
+      "poster": "https://images.metahub.space/poster/medium/tt0104860/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104860/img",
+      "releaseInfo": "1992",
+      "imdbRating": "8.3",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "runtime": "1h 38m",
+      "description": "Blockbuster '92 · #16 Sci-Fi & Fantasy · IMDb 8.3 from 10K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104860"
+      }
+    },
+    {
+      "id": "tt0105165",
+      "type": "movie",
+      "name": "Prelude to a Kiss",
+      "poster": "https://images.metahub.space/poster/medium/tt0105165/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105165/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.6",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "runtime": "1h 45m",
+      "description": "Blockbuster '92 · #17 Sci-Fi & Fantasy · IMDb 5.6 from 9K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105165"
+      }
+    },
+    {
+      "id": "tt0126234",
+      "type": "movie",
+      "name": "Chamatkar",
+      "poster": "https://images.metahub.space/poster/medium/tt0126234/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0126234/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.5",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "runtime": "2h 51m",
+      "description": "Blockbuster '92 · #18 Sci-Fi & Fantasy · IMDb 6.5 from 8K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0126234"
+      }
+    },
+    {
+      "id": "tt0104782",
+      "type": "movie",
+      "name": "Leolo",
+      "poster": "https://images.metahub.space/poster/medium/tt0104782/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104782/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.3",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "runtime": "1h 47m",
+      "description": "Blockbuster '92 · #19 Sci-Fi & Fantasy · IMDb 7.3 from 8K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104782"
+      }
+    },
+    {
+      "id": "tt0104352",
+      "type": "movie",
+      "name": "Godzilla and Mothra: The Battle for Earth",
+      "poster": "https://images.metahub.space/poster/medium/tt0104352/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104352/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.2",
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "runtime": "1h 40m",
+      "description": "Blockbuster '92 · #20 Sci-Fi & Fantasy · IMDb 6.2 from 6K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104352"
+      }
+    },
+    {
+      "id": "tt0103783",
+      "type": "movie",
+      "name": "Bebe's Kids",
+      "poster": "https://images.metahub.space/poster/medium/tt0103783/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103783/img",
+      "releaseInfo": "1992",
+      "imdbRating": "5.9",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Fantasy"
+      ],
+      "runtime": "1h 12m",
+      "description": "Blockbuster '92 · #21 Sci-Fi & Fantasy · IMDb 5.9 from 6K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103783"
+      }
+    },
+    {
+      "id": "tt0105569",
+      "type": "movie",
+      "name": "Tetsuo II: Body Hammer",
+      "poster": "https://images.metahub.space/poster/medium/tt0105569/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0105569/img",
+      "releaseInfo": "1992",
+      "imdbRating": "6.4",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "runtime": "1h 23m",
+      "description": "Blockbuster '92 · #22 Sci-Fi & Fantasy · IMDb 6.4 from 6K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0105569"
+      }
+    },
+    {
+      "id": "tt0103295",
+      "type": "movie",
+      "name": "Swordsman II",
+      "poster": "https://images.metahub.space/poster/medium/tt0103295/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0103295/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.1",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
+      "runtime": "1h 52m",
+      "description": "Blockbuster '92 · #23 Sci-Fi & Fantasy · IMDb 7.1 from 5K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0103295"
+      }
+    },
+    {
+      "id": "tt0104522",
+      "type": "movie",
+      "name": "Into the West",
+      "poster": "https://images.metahub.space/poster/medium/tt0104522/img",
+      "posterShape": "poster",
+      "background": "https://images.metahub.space/background/medium/tt0104522/img",
+      "releaseInfo": "1992",
+      "imdbRating": "7.0",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "runtime": "1h 37m",
+      "description": "Blockbuster '92 · #24 Sci-Fi & Fantasy · IMDb 7.0 from 3K votes.",
+      "behaviorHints": {
+        "defaultVideoId": "tt0104522"
+      }
+    }
+  ]
+}

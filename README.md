@@ -38,3 +38,7 @@ Unofficial fan project. Not affiliated with Blockbuster, IMDb or Stremio. Film d
 ## Direct movie stream links
 
 Every movie catalogue preview includes `behaviorHints.defaultVideoId` equal to its IMDb ID. This lets compatible Stremio clients open the stream list directly, rather than waiting for metadata providers to finish before guessing the video ID. The add-on remains catalogue-only; installed streaming add-ons provide playable files. Series must not use their parent IMDb ID as a default episode ID.
+
+## Refreshing catalogue cards (1.3.3)
+
+The catalogue ID is now `blockbuster-video-v2`, giving all catalogue responses a fresh address. This rules out reuse of older cards without the movie video-ID hint. After uploading, remove the existing Blockbuster add-on, quit Stremio completely, and reinstall from the webpage. This is a cache-isolation change, not confirmation that the underlying 30-second delay has been fixed.
