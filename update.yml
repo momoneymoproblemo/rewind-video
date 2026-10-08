@@ -1,0 +1,33 @@
+name: Restock Rewind Video
+
+on:
+  schedule:
+    - cron: '30 14 * * 0'   # Sunday 14:30 UTC = early Monday morning in Melbourne
+  workflow_dispatch:        # adds a "Run workflow" button
+    inputs:
+      year:
+        description: 'Force a year (1985-2004). Leave blank for this week''s random year.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  restock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.js
+        env:
+          YEAR: ${{ github.event.inputs.year }}
+      - name: Save the new shelves
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Restock Rewind Video"
+          git push

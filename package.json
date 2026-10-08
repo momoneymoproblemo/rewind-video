@@ -1,0 +1,7 @@
+{
+  "name": "rewind-video",
+  "version": "1.0.0",
+  "description": "Rewind Video: a Stremio add-on that turns Stremio into a 1985-2004 video store, a different year every week",
+  "scripts": { "build": "node build.js" },
+  "engines": { "node": ">=18" }
+}
