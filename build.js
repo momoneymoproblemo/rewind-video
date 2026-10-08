@@ -1,4 +1,4 @@
-// Rewind Video — a static Stremio add-on (built into docs/) that turns Stremio into a 1985–2004 video store.
+// Blockbuster Video — a static Stremio add-on (built into docs/) that turns Stremio into a 1985–2004 video store.
 // Every week the store jumps to a random year and restocks ten shelves with that year's films.
 // Data: IMDb's official non-commercial datasets. No dependencies: Node 18+ only.
 const fs = require('fs');
@@ -21,20 +21,21 @@ const TIME_ZONE = 'Australia/Melbourne';     // the store restocks on Monday, Me
 const OUT = path.join(__dirname, 'docs');
 const BASE = 'https://momoneymoproblemo.github.io/rewind-video';
 const DATA = 'https://datasets.imdbws.com/';
+const CATALOG_ID = 'blockbuster-video';
 
-// The ten shelves. Names are fixed (Stremio keeps them from install day); the films inside change weekly.
+// Ten internal aisles feed one Blockbuster Video catalogue with a genre dropdown.
 const has = (...gs) => (f) => gs.some((g) => f.genres.includes(g));
 const ROWS = [
-  { id: 'rewind-biggest', name: 'Rewind · Biggest Hits', label: 'Biggest Hits', kind: 'biggest' },
-  { id: 'rewind-best', name: 'Rewind · Best of the Year', label: 'Best of the Year', kind: 'best' },
-  { id: 'rewind-action', name: 'Rewind · Action', label: 'Action', kind: 'shelf', match: has('Action') },
-  { id: 'rewind-comedy', name: 'Rewind · Comedy', label: 'Comedy', kind: 'shelf', match: has('Comedy') },
-  { id: 'rewind-drama', name: 'Rewind · Drama', label: 'Drama', kind: 'shelf', match: has('Drama') },
-  { id: 'rewind-horror', name: 'Rewind · Horror', label: 'Horror', kind: 'shelf', match: has('Horror') },
-  { id: 'rewind-scifi', name: 'Rewind · Sci-Fi & Fantasy', label: 'Sci-Fi & Fantasy', kind: 'shelf', match: has('Sci-Fi', 'Fantasy') },
-  { id: 'rewind-thriller', name: 'Rewind · Thriller & Crime', label: 'Thriller & Crime', kind: 'shelf', match: has('Thriller', 'Crime', 'Mystery') },
-  { id: 'rewind-family', name: 'Rewind · Family & Animation', label: 'Family & Animation', kind: 'shelf', match: has('Family', 'Animation') },
-  { id: 'rewind-romance', name: 'Rewind · Romance', label: 'Romance', kind: 'shelf', match: has('Romance') },
+  { id: 'rewind-biggest', name: 'Blockbuster · Biggest Hits', label: 'Biggest Hits', kind: 'biggest' },
+  { id: 'rewind-best', name: 'Blockbuster · Best of the Year', label: 'Best of the Year', kind: 'best' },
+  { id: 'rewind-action', name: 'Blockbuster · Action', label: 'Action', kind: 'shelf', match: has('Action') },
+  { id: 'rewind-comedy', name: 'Blockbuster · Comedy', label: 'Comedy', kind: 'shelf', match: has('Comedy') },
+  { id: 'rewind-drama', name: 'Blockbuster · Drama', label: 'Drama', kind: 'shelf', match: has('Drama') },
+  { id: 'rewind-horror', name: 'Blockbuster · Horror', label: 'Horror', kind: 'shelf', match: has('Horror') },
+  { id: 'rewind-scifi', name: 'Blockbuster · Sci-Fi & Fantasy', label: 'Sci-Fi & Fantasy', kind: 'shelf', match: has('Sci-Fi', 'Fantasy') },
+  { id: 'rewind-thriller', name: 'Blockbuster · Thriller & Crime', label: 'Thriller & Crime', kind: 'shelf', match: has('Thriller', 'Crime', 'Mystery') },
+  { id: 'rewind-family', name: 'Blockbuster · Family & Animation', label: 'Family & Animation', kind: 'shelf', match: has('Family', 'Animation') },
+  { id: 'rewind-romance', name: 'Blockbuster · Romance', label: 'Romance', kind: 'shelf', match: has('Romance') },
 ];
 
 // ---- Which year is the store in this week? -----------------------------------------------------------
@@ -160,24 +161,35 @@ async function main() {
       imdbRating: f.rating.toFixed(1),
       genres: f.genres,
       runtime: fmtRuntime(f.runtime),
-      description: `Rewind '${yy} · #${i + 1} ${row.label} · IMDb ${f.rating.toFixed(1)} from ${fmtVotes(f.votes)} votes.`,
+      description: `Blockbuster '${yy} · #${i + 1} ${row.label} · IMDb ${f.rating.toFixed(1)} from ${fmtVotes(f.votes)} votes.`,
     }));
-    write(`catalog/movie/${row.id}.json`, { metas });
+    // Stremio's genre extra is a URL-encoded path segment, not a query parameter.
+    // The decoded filename is used by static hosts such as GitHub Pages.
+    if (row.kind === 'biggest') write(`catalog/movie/${CATALOG_ID}.json`, { metas });
+    write(`catalog/movie/${CATALOG_ID}/genre=${row.label}.json`, { metas });
+    // Form encoders can use '+' for spaces; serve the equivalent path as well.
+    const formLabel = row.label.replace(/ /g, '+');
+    if (formLabel !== row.label) write(`catalog/movie/${CATALOG_ID}/genre=${formLabel}.json`, { metas });
     summary.rows.push({ id: row.id, label: row.label, count: metas.length, films: metas.slice(0, 6).map((x) => ({ id: x.id, name: x.name, poster: x.poster })) });
     console.log(`${row.label}: ${metas.length} — ${metas.slice(0, 4).map((x) => x.name).join(', ')}`);
   }
 
   write('manifest.json', {
     id: 'community.rewindvideo',
-    version: '1.0.0',
-    name: 'Rewind Video',
-    description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks ten shelves: Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
+    version: '1.1.0',
+    name: 'Blockbuster Video',
+    description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
     logo: `${BASE}/logo.png`,
     background: `${BASE}/background.jpg`,
     resources: ['catalog'],
     types: ['movie'],
     idPrefixes: ['tt'],
-    catalogs: ROWS.map((r) => ({ type: 'movie', id: r.id, name: r.name })),
+    catalogs: [{
+      type: 'movie',
+      id: CATALOG_ID,
+      name: 'Blockbuster Video',
+      extra: [{ name: 'genre', isRequired: false, options: ROWS.map((r) => r.label), optionsLimit: 1 }],
+    }],
   });
   write('summary.json', summary);
   console.log('Done.');
