@@ -91,17 +91,13 @@
   src: url(fonts/pxiKyp0ihIEF2hsY.ttf) format('truetype');
 }
 
+
+
+
 @font-face {
-  font-family: 'Caveat';
+  font-family: 'Yellowtail';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-display: swap;
-  src: url(fonts/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SII.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Caveat';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SII.ttf) format('truetype');
+  src: url(fonts/OZpGg_pnoDtINPfRIlLotlw.ttf) format('truetype');
 }

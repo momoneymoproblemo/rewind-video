@@ -9,7 +9,7 @@ const readline = require('readline');
 
 // ---- Tuning ---------------------------------------------------------------------------------------
 const FIRST_YEAR = 1985, LAST_YEAR = 2004;   // the store's range: 20 years, one full cycle before any repeat
-const PER_ROW = 20;                          // films per shelf
+const PER_ROW = 50;                          // up to 50 films per shelf
 const MIN_RUNTIME = 60;                      // minutes; drops shorts and featurettes
 const SHELF_MIN_VOTES = 3000;                // genre shelves: films people actually rented
 const BEST_MIN_VOTES = 5000, BEST_MIN_RATING = 6.5; // "Best of the Year"
@@ -87,6 +87,36 @@ function lines(file) {
   });
 }
 
+// Enrich the six display sleeves with genuine film information from Cinemeta.
+// If it is unavailable, IMDb runtime, genres and rating still populate the reverse.
+async function filmDetails(id) {
+  try {
+    let data;
+    if (process.env.METADATA_DIR) {
+      data = JSON.parse(fs.readFileSync(path.join(process.env.METADATA_DIR, `${id}.json`), 'utf8'));
+    } else {
+      data = await new Promise((resolve, reject) => {
+        const req = https.get(`https://v3-cinemeta.strem.io/meta/movie/${id}.json`, (res) => {
+          if (res.statusCode !== 200) { res.resume(); return reject(new Error(`HTTP ${res.statusCode}`)); }
+          let body = '';
+          res.setEncoding('utf8');
+          res.on('data', (chunk) => { body += chunk; });
+          res.on('end', () => { try { resolve(JSON.parse(body)); } catch (e) { reject(e); } });
+          res.on('error', reject);
+        });
+        req.setTimeout(10000, () => req.destroy(new Error('Cinemeta timed out')));
+        req.on('error', reject);
+      });
+    }
+    const m = data.meta || {};
+    const list = (value) => Array.isArray(value) ? value.filter((v) => typeof v === 'string') : typeof value === 'string' ? [value] : [];
+    return { synopsis: typeof m.description === 'string' ? m.description : '', directors: list(m.director), cast: list(m.cast).slice(0, 3) };
+  } catch (e) {
+    console.warn(`Film information for ${id} unavailable; retaining IMDb details.`);
+    return {};
+  }
+}
+
 const clamp = (x, lo, hi) => Math.min(hi, Math.max(lo, x || lo));
 const fmtVotes = (n) => (n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? Math.round(n / 1e3) + 'K' : String(n));
 const fmtRuntime = (m) => (m >= 60 ? `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, '0')}m` : `${m}m`);
@@ -147,6 +177,7 @@ async function main() {
     shelves[row.id] = picks.slice(0, PER_ROW);
   }
 
+  const details = new Map(await Promise.all(shelves[ROWS[0].id].slice(0, 6).map(async (f) => [f.id, await filmDetails(f.id)])));
   const yy = String(year).slice(2);
   fs.rmSync(path.join(OUT, 'catalog'), { recursive: true, force: true });
   const summary = { updated: new Date().toISOString(), weekOf: week.monday, year, rows: [] };
@@ -165,18 +196,22 @@ async function main() {
     }));
     // Stremio's genre extra is a URL-encoded path segment, not a query parameter.
     // The decoded filename is used by static hosts such as GitHub Pages.
-    if (row.kind === 'biggest') write(`catalog/movie/${CATALOG_ID}.json`, { metas });
+    if (row.kind === 'biggest') {
+      // An unfiltered visit always opens Biggest Hits; compatibility aliases do too.
+      write(`catalog/movie/${CATALOG_ID}.json`, { metas });
+      for (const filter of ['', 'Top', 'All']) write(`catalog/movie/${CATALOG_ID}/genre=${filter}.json`, { metas });
+    }
     write(`catalog/movie/${CATALOG_ID}/genre=${row.label}.json`, { metas });
     // Form encoders can use '+' for spaces; serve the equivalent path as well.
     const formLabel = row.label.replace(/ /g, '+');
     if (formLabel !== row.label) write(`catalog/movie/${CATALOG_ID}/genre=${formLabel}.json`, { metas });
-    summary.rows.push({ id: row.id, label: row.label, count: metas.length, films: metas.slice(0, 6).map((x) => ({ id: x.id, name: x.name, poster: x.poster })) });
+    summary.rows.push({ id: row.id, label: row.label, count: metas.length, films: metas.slice(0, 6).map((x) => ({ id: x.id, name: x.name, poster: x.poster, year, runtime: x.runtime, genres: x.genres, imdbRating: x.imdbRating, ...details.get(x.id) })) });
     console.log(`${row.label}: ${metas.length} — ${metas.slice(0, 4).map((x) => x.name).join(', ')}`);
   }
 
   write('manifest.json', {
     id: 'community.rewindvideo',
-    version: '1.1.0',
+    version: '1.2.0',
     name: 'Blockbuster Video',
     description: `A ${FIRST_YEAR}–${LAST_YEAR} video store in your Stremio. Every Monday the store jumps to a random year and restocks one Blockbuster Video catalogue. Use the genre dropdown in Discover to browse Biggest Hits, Best of the Year and eight genre aisles. Be kind, rewind. Unofficial fan project; film data from IMDb.`,
     logo: `${BASE}/logo.png`,
